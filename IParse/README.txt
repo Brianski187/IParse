@@ -1,4 +1,4 @@
-Web-App for automation of extracting, parsing and looking up IP addresses contained in a Pcap file.
+Web-App for automation of extracting, parsing and looking up IP addresses contained in a Pcap file through Shodan.
 
 Should work on Windows as well as Linux
 For Windows change the directory naming and put an entire Wireshark installation in the IParse folder
