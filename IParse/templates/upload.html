@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Form</title>
+<!-- <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" media="screen" href="static/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/bootstrap/css/bootstrap-theme.min.css"> -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<div class="logo">
+    <img src="static/images/logo.png" name="logo" alt="logo">
+</div>
+</head>
+
+<body class="bg">
+    <h1>{{ flashthismessage }}</h1>
+    <h2>{{ flashthismessagetoo }}</h2>
+    <form enctype="multipart/form-data" method="POST" action="">
+        <input type="file" id="file" class="form-control" name="file" required="true" />
+        <div class="boxes">
+            <button class="btn btn-lg btn-primary btn-block" type="submit" name="Submit"
+                style="width: 150px;border-radius: 0px;padding: 5px; font-weight:normal;">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
