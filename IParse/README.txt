@@ -6,24 +6,27 @@ Paste folder into a Flask virtual environment.
 
 (Linux)
 1:
--> pip install Flask, venv, dpkt, pyshark-legacy, json2html, python-pcapng
+Unzip bootstrap in IParse/static/
 
 2:
-Get a Shodan API key and add it to the SHODAN_API_KEY variable app.py.
+-> pip install Flask, venv, dpkt, pyshark-legacy, json2html, python-pcapng
 
 3:
-Add a secret key in app.py variable flaskapp.secret_key = '%secret-key%'
+Get a Shodan API key and add it to the SHODAN_API_KEY variable app.py.
 
 4:
-Edit the UPLOAD_FOLDER directory to yours in app.py: UPLOAD_FOLDER = '%/root/?/?/?/IParse/uploads/%'
+Add a secret key in app.py variable flaskapp.secret_key = '%secret-key%'
 
 5:
+Edit the UPLOAD_FOLDER directory to yours in app.py: UPLOAD_FOLDER = '%/root/?/?/?/IParse/uploads/%'
+
+6:
 -> cd ../venv
 -> . /bin/activate
 -> cd %project-map%
 -> python app.py
 
-6:
+7:
 In a browser enter 127.0.0.1:5000 and follow the instructions
 
 
