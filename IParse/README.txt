@@ -9,7 +9,12 @@ Paste folder into a Flask virtual environment.
 Unzip bootstrap in IParse/static/
 
 2:
--> pip install Flask, venv, dpkt, pyshark-legacy, json2html, python-pcapng
+-> pip install Flask 
+-> pip install dpkt
+-> pip install pyshark-legacy
+-> pip install json2html
+-> pip install python-pcapng
+-> pip install venv
 
 3:
 Get a Shodan API key and add it to the SHODAN_API_KEY variable app.py.
