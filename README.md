@@ -7,7 +7,6 @@ Should work on Windows as well as Linux
 For Windows change the directory naming and put an entire Wireshark installation in the IParse folder
 Paste folder into a Flask virtual environment.
 
-(Linux)
 - Unzip bootstrap in IParse/static/
 
 - Install the following:
